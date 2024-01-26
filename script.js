@@ -124,6 +124,6 @@ function blackcheck() {
         result.innerHTML = "black: 100%"
     }else {
         const alt1 = ranum(0, 100)
-        result.innerHTML = "black: " + new_res + "%"
+        result.innerHTML = "black: " + alt1 + "%"
     }
 }
