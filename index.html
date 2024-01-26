@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Page title</title>
+    </head>
+    <body>
+        <hr>
+        <div class="topbox">
+            <h1 class="toptext" id="toptext">hello visitors!🤓</h1>
+        </div>
+        <hr>
+        <div class="secbox">
+            <h2 class="sectext" id="sectext">want to buy a lottery?</h2>
+            <h2>win lottery?</h2>
+            <h2 id="wincheck">currently: none</h2>
+            <button class="button1" onclick="checklotto()" id="lotto button">click here to buy lottery!</button>
+        </div>
+        <hr>
+        <div class="trdbox">
+            <h2 class="trdtext" id="trdtext">Pythagoras therome</h2>
+            <form>
+                <label for="uio1">first side of the triangle</label>
+                <input class="uio1" id="uio1"><br>
+                <label for="uio2">second side of the triangle</label>
+                <input class="uio2" id="uio2"><br>
+                <label for="decirange">max decimal digit</label>
+                <input id="decirange" class="uio2"><br>
+                <button type="button" class="uio3" onclick="ptg()">done</button>
+            </form>
+            <h2 class="result1" id="result1">result: none</h2>
+        </div>
+        <hr>
+        <div class="fthbox">
+            <h2 class="fthtext" id="fthtext">who's black?</h2>
+            <form>
+                <label for="uio4">enter the name of the person to see how black they are</label>
+                <input id="uio4" class="uio4"><br>
+                <button type="button" class="uio5" onclick="blackcheck()">done</button>
+            </form>
+            <h2 id="result2" class="result2">black: none</h2>
+        </div>
+        <hr>
+        
+       <!------------------------------>
+        <script src="script.js"></script>
+        <style>
+        html, body {
+            font-family: monospace;
+            color: white;
+            background-color: #180d4d;
+        }
+        
+        .topbox {
+            background-color: white;
+            border: 5px solid gray;
+            border-radius: 25px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            color: black;
+        }
+        
+        .toptext {
+            font-weight: bold;
+        }
+        
+        .secbox, .sectext {
+            background-color: #ff9595;
+            border: 3px solid #db6e9a;
+            border-radius: 25px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            color: black;
+        }
+        
+        .trdbox, .trdtext {
+            background-color: #ffdc00;
+            border: 3px solid #ef9450;
+            border-radius: 25px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            color: black;
+        }
+        
+        .fthbox, .fthtext {
+            background-color: #80ffff;
+            border: 5px solid #80acff;
+            border-radius: 25px;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            color: black;
+        }
+        
+        .uio1, .uio2, .uio3 {
+            background-color: #ffdc00;
+            border: 3px solid #ef9450;
+            margin: 10px;
+            border-radius: 25px;
+        }
+        
+        .uio4, .uio5 {
+            background-color: #80ffff;
+            border: 3px solid #80acff;
+            margin: 10px;
+            border-radius: 25px;
+        }
+        
+        .button1 {
+            background-color: #ff9595;
+            border: 3px solid #db6e9a;
+            border-radius: 25px;
+        }
+        
+        hr {
+            border: 3px solid white;
+            border-radius: 25px;
+        }
+        </style>
+    </body>
+</html>
